@@ -39,9 +39,9 @@ pragma solidity ^0.4.11;
   
  contract GreenMedToken is ERC20Interface {
      string public constant symbol = "GRMD";
-     string public constant name = "GreenMed Token";
+     string public constant name = "GreenMed";
      uint8 public constant decimals = 18;
-     uint256 _totalSupply = 10000000000000000000000000;
+     uint256 _totalSupply = 100000000000000000000000000;
      
      // Owner of this contract
      address public owner;

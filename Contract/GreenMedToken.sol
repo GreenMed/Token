@@ -37,7 +37,7 @@ pragma solidity ^0.4.11;
 
  contract tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData); }
   
- contract GreenMedToken is ERC20Interface {
+ contract GreenMed is ERC20Interface {
      string public constant symbol = "GRMD";
      string public constant name = "GreenMed";
      uint8 public constant decimals = 18;
@@ -69,7 +69,7 @@ pragma solidity ^0.4.11;
      }
   
      // Constructor
-     function FixedSupplyToken() {
+     function GreenMed() {
          owner = msg.sender;
          balances[owner] = _totalSupply;
      }
